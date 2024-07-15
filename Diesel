@@ -1,1 +1,35 @@
-
+{
+  "engine": {
+    "information": {
+      "name": "Custom Engine",
+      "authors": "Your Name"
+    },
+    "slotType": "sunburst_engine",
+    "slots": [
+      ["type", "default", "description"]
+    ],
+    "flexbodies": [
+      ["mesh", "[group]:", "nonFlexMaterials"],
+      ["sunburst_engine", ["engine"]],
+      ["sunburst_enginebay", ["enginebay"]]
+    ],
+    "nodes": [
+      ["id", "posX", "posY", "posZ"]
+    ],
+    "beams": [
+      ["id1:", "id2:"]
+    ],
+    "engineType": "combustionEngine",
+    "defaultWeight": 200,
+    "torqueCurve": [
+      ["rpm", "torque"]
+    ],
+    "idleRPM": 800,
+    "peakTorqueRPM": 4000,
+    "maxRPM": 7000,
+    "torqueReactionNodes": [
+      ["nodeA", "nodeB"]
+    ],
+    "engineSoundFileName": "soundfilename"
+  }
+}
