@@ -3,7 +3,7 @@
   "name": "D339 4-Cylinder Engine",
   "information": {
     "description": "International Harvester D339 4-cylinder diesel engine.",
-    "author": "Your Name",
+    "author": "Jacob Brown",
     "version": "1.0"
   },
   "slotType": "main_engine",
