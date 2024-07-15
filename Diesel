@@ -66,3 +66,25 @@
         }
     }
 }
+
+
+
+
+{
+  "my_custom_vehicle": {
+    "information": {
+      "authors": "Your Name",
+      "name": "Custom Vehicle",
+      "description": "A custom vehicle equipped with the D339 engine."
+    },
+    "slotType": "main",
+    "slots": [
+      ["type", "default", "description"],
+      ["main_engine", "my_custom_vehicle_engine_d339", "D339 Engine"]
+    ],
+    "flexbodies": [],
+    "nodes": [],
+    "beams": []
+  }
+}
+
