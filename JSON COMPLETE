@@ -1,10 +1,10 @@
 {
 	"engine": {
 		"information": {
-			"name": "Super Turbo Engine",
+			"name": "TEST ENGINE",
 			"authors": "Your Name"
 		},
-		"slotType": "sunburst_engine",
+		"slotType": "Garvil D-series",
 		"slots": [
 			[
 				"type",
