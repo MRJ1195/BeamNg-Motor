@@ -1,7 +1,7 @@
 {
     "my_custom_vehicle_engine_d339": {
         "information": {
-            "authors": "Your Name",
+            "authors": "Jacob Brown",
             "name": "D339 4-Cylinder Engine",
             "description": "International Harvester D339 4-cylinder diesel engine."
         },
@@ -70,21 +70,23 @@
 
 
 
-{
-  "my_custom_vehicle": {
-    "information": {
-      "authors": "Your Name",
-      "name": "Custom Vehicle",
-      "description": "A custom vehicle equipped with the D339 engine."
-    },
-    "slotType": "main",
-    "slots": [
-      ["type", "default", "description"],
-      ["main_engine", "my_custom_vehicle_engine_d339", "D339 Engine"]
-    ],
-    "flexbodies": [],
-    "nodes": [],
-    "beams": []
-  }
-}
 
+{
+    "my_custom_vehicle": {
+      "information": {
+        "authors": "Jacob",
+        "name": "D339",
+        "description": "A work in progress TEST"
+      },
+      "slotType": "main",
+      "slots": [
+        ["type", "default", "description"],
+        ["main_engine", "my_custom_vehicle_engine_d339", "D339 Engine"]
+      ],
+      "flexbodies": [],
+      "nodes": [],
+      "beams": []
+    }
+  }
+  
+  
